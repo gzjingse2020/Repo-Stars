@@ -1,0 +1,28 @@
+{
+  "github_token": "",
+  "repos": [
+    {
+      "owner": "hrudu-dev",
+      "repo": "openrelay",
+      "path": "/path/to/openrelay",
+      "threshold": 1000,
+      "enabled": true,
+      "notification": true
+    },
+    {
+      "owner": "hrudu-dev",
+      "repo": "openclaw",
+      "path": "/path/to/openclaw",
+      "threshold": 1000,
+      "enabled": true,
+      "notification": true
+    }
+  ],
+  "check_interval": 3600,
+  "notification_method": "log",
+  "telegram_token": "",
+  "telegram_chat_id": "",
+  "email_smtp": "",
+  "email_from": "",
+  "email_to": ""
+}
